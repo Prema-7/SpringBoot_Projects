@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "spring.cloud.consul.host",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.host'"
+  },
+  {
+    "name": "spring.cloud.consul.port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.port'"
+  },
+  {
+    "name": "spring.cloud.config.failfast",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.failfast'"
+  },
+  {
+    "name": "spring.cloud.config.failfast",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.failfast'"
+  },
+  {
+    "name": "management.health.consul.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.health.consul.enabled'"
+  },
+  {
+    "name": "management.security.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.security.enabled'"
+  },
+  {
+    "name": "spring.cloud.consul.config.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.config.enabled'"
+  },
+  {
+    "name": "spring.cloud.consul.config.fail-fast",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.config.fail-fast'"
+  }
+]}

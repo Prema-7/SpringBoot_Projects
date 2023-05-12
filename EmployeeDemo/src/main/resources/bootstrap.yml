@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: employee-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+      config:
+        enabled: false
+        fail-fast: false
+    config:
+      failfast: false
+server:
+  port: 8082 
+management:
+  security:
+    enabled: fasle
+  health:
+    consul:
+      enabled: false
+        
+      
